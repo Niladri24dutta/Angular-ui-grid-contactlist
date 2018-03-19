@@ -3,4 +3,4 @@ solution: SPA_MVC_StudentApp.sln
 install:
   - nuget restore SPA_MVC_StudentApp.sln
 script:
-  - xbuild /p:Configuration=Release SPA_MVC_StudentApp.sln
+  - msbuild /p:Configuration=Release SPA_MVC_StudentApp.sln
