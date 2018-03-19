@@ -1,6 +1,5 @@
 language: csharp
 solution: SPA_MVC_StudentApp.sln
-mono: none
 install:
   - nuget restore SPA_MVC_StudentApp.sln
 script:
